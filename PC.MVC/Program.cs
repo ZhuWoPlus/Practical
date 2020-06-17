@@ -13,7 +13,6 @@ namespace PC.MVC
     {
         public static void Main(string[] args)
         {
-
             CreateHostBuilder(args).Build().Run();
         }
 
