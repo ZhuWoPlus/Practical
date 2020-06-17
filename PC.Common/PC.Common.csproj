@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.35" />
+    <PackageReference Include="DotNetCore.NPOI" Version="1.2.2" />
+    <PackageReference Include="JWT" Version="7.2.1" />
+    <PackageReference Include="System.Data.OleDb" Version="4.7.1" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\..\..\..\专高\高四\do\老师代码\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.DDF">
+      <HintPath>..\..\..\..\专高\高四\do\老师代码\NPOI.DDF.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.HPSF">
+      <HintPath>..\..\..\..\专高\高四\do\老师代码\NPOI.HPSF.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.POIFS">
+      <HintPath>..\..\..\..\专高\高四\do\老师代码\NPOI.POIFS.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.Util">
+      <HintPath>..\..\..\..\专高\高四\do\老师代码\NPOI.Util.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
