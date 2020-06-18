@@ -11,7 +11,7 @@ namespace PC.Common.Helpers
     {
         public List<T> Query(string sql)
         {
-            using(SqlConnection con = new SqlConnection(@"Data Source=LAPTOP-F38H79UL\LI;Initial Catalog=Practial;Integrated Security=True"))
+            using(SqlConnection con = new SqlConnection(@"Data Source=192.168.43.93;Initial Catalog=Practial;User ID=sa;Pwd=12345"))
             {
                 List<T> list = con.Query<T>(sql).ToList();
                 return list;
@@ -19,7 +19,7 @@ namespace PC.Common.Helpers
         }
         public int Execute(string sql)
         {
-            using (SqlConnection con = new SqlConnection(@"Data Source=LAPTOP-F38H79UL\LI;Initial Catalog=Practial;Integrated Security=True"))
+            using (SqlConnection con = new SqlConnection(@"Data Source=192.168.43.93;Initial Catalog=Practial;User ID=sa;Pwd=12345"))
             {
                 int res = con.Execute(sql);
                 return res;
