@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PC.IDAL\PC.IDAL.csproj" />
+  </ItemGroup>
+
 </Project>
