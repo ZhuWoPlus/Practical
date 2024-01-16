@@ -9,7 +9,7 @@
     <PackageReference Include="DotNetCore.NPOI" Version="1.2.2" />
     <PackageReference Include="JWT" Version="7.2.1" />
     <PackageReference Include="System.Data.OleDb" Version="4.7.1" />
-    <PackageReference Include="System.Data.SqlClient" Version="4.8.1" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
   </ItemGroup>
 
   <ItemGroup>
